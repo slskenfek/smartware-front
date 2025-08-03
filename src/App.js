@@ -56,10 +56,9 @@ function App() {
               <li>
                 <NavLink to="/mail">메일</NavLink>
                 <ul className="submenu">
-                  <li><Link to="/mail/write">메일쓰기</Link></li>
-                  <li><Link to="/mail/list">메일목록</Link></li>
-                  <li><Link to="/mail/my-sent">내가 쓴 메일</Link></li>
-                  <li><Link to="/mail/sent">보낸 메일</Link></li>
+                  <li><Link to="/mail/list">받은메일함</Link></li>
+                  <li><Link to="/mail/sent">보낸 메일함</Link></li>
+                  <li><Link to="/mail/my-sent">나에게쓴메일</Link></li>
                 </ul>
               </li>
               <li>

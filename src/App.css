@@ -190,14 +190,15 @@ body {
   padding: 0;
   margin: 0;
   background-color: #3a506b; /* Slightly lighter than sidebar for contrast */
-  position: absolute; /* Position relative to parent li */
-  left: 100%; /* Appear to the right of the parent menu item */
-  top: 0;
-  min-width: 150px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
-  z-index: 999;
-  border-radius: 0 4px 4px 0; /* Rounded corners on the right */
+  position: relative; /* Position relative to parent li */
+  top: auto;
+  left: auto;
+  min-width: auto;
+  box-shadow: none;
+  z-index: auto;
+  border-radius: 0;
   display: none; /* Hidden by default */
+  padding-left: 20px; /* Indent submenu items */
 }
 
 .submenu li a {
