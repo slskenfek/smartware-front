@@ -1,6 +1,6 @@
 import React from 'react';
-import { history } from './data';
-import './MyHistory.css';
+import { history } from '../data';
+import '../styles/MyHistory.css';
 
 function MyHistory() {
   return (

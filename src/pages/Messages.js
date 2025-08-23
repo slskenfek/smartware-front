@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { conversations } from './data';
-import './Messages.css';
+import { conversations } from '../data';
+import '../styles/Messages.css';
 
 function Messages() {
   const [selectedConversation, setSelectedConversation] = useState(conversations[0]);

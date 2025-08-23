@@ -1,35 +1,35 @@
 
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from 'react-router-dom';
-import './App.css';
-import Home from './Home';
-import Mail from './Mail';
-import Approval from './Approval';
-import Schedule from './Schedule';
-import Board from './Board';
-import AddressBook from './AddressBook';
-import Messages from './Messages';
-import MyHistory from './MyHistory';
-import Logout from './Logout';
-import Login from './Login';
-import Register from './Register';
-import { AuthProvider, AuthContext } from './AuthContext';
+import './styles/App.css';
+import Home from './pages/Home';
+import Mail from './pages/Mail';
+import Approval from './pages/Approval';
+import Schedule from './pages/Schedule';
+import Board from './pages/Board';
+import AddressBook from './pages/AddressBook';
+import Messages from './pages/Messages';
+import MyHistory from './pages/MyHistory';
+import Logout from './pages/Logout';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import { AuthProvider, AuthContext } from './contexts/AuthContext';
 import { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // New components for sub-menus
-import MailWrite from './MailWrite';
-import MailList from './MailList';
-import MySentMail from './MySentMail';
-import SentMail from './SentMail';
-import ApprovalWrite from './ApprovalWrite';
-import ApprovalList from './ApprovalList';
-import MyApprovals from './MyApprovals';
-import MySchedule from './MySchedule';
-import GroupSchedule from './GroupSchedule';
-import CompanyBoard from './CompanyBoard';
-import FreeBoard from './FreeBoard';
-import AnonymousBoard from './AnonymousBoard';
+import MailWrite from './pages/MailWrite';
+import MailList from './pages/MailList';
+import MySentMail from './pages/MySentMail';
+import SentMail from './pages/SentMail';
+import ApprovalWrite from './pages/ApprovalWrite';
+import ApprovalList from './pages/ApprovalList';
+import MyApprovals from './pages/MyApprovals';
+import MySchedule from './pages/MySchedule';
+import GroupSchedule from './pages/GroupSchedule';
+import CompanyBoard from './pages/CompanyBoard';
+import FreeBoard from './pages/FreeBoard';
+import AnonymousBoard from './pages/AnonymousBoard';
 
 
 function AppContent() {

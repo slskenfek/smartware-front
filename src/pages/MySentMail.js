@@ -1,5 +1,5 @@
 import React from 'react';
-import { mySentMails } from './data';
+import { mySentMails } from '../data';
 
 function MySentMail() {
   return (
